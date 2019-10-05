@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.4.15.9
+- https://www.phpmyadmin.net
+-
+- Servidor: localhost
+- Tiempo de generación: 05-10-2019 a las 21:01:25
+- Versión del servidor: 5.6.37
+- Versión de PHP: 7.1.8
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="ubigeo_peru_inei_2016" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="ubigeo_peru_departments">
+                CREATE TABLE `ubigeo_peru_departments` (
+                  `id` varchar(2) NOT NULL,
+                  `name` varchar(45) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de datos: 'ubigeo_peru_inei_2016'
+    -->
+    <database name="ubigeo_peru_inei_2016">
+        <!-- Tabla ubigeo_peru_departments -->
+        <table name="ubigeo_peru_departments">
+            <column name="id">01</column>
+            <column name="name">Amazonas</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">02</column>
+            <column name="name">Áncash</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">03</column>
+            <column name="name">Apurímac</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">04</column>
+            <column name="name">Arequipa</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">05</column>
+            <column name="name">Ayacucho</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">06</column>
+            <column name="name">Cajamarca</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">07</column>
+            <column name="name">Callao</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">08</column>
+            <column name="name">Cusco</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">09</column>
+            <column name="name">Huancavelica</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">10</column>
+            <column name="name">Huánuco</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">11</column>
+            <column name="name">Ica</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">12</column>
+            <column name="name">Junín</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">13</column>
+            <column name="name">La Libertad</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">14</column>
+            <column name="name">Lambayeque</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">15</column>
+            <column name="name">Lima</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">16</column>
+            <column name="name">Loreto</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">17</column>
+            <column name="name">Madre de Dios</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">18</column>
+            <column name="name">Moquegua</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">19</column>
+            <column name="name">Pasco</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">20</column>
+            <column name="name">Piura</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">21</column>
+            <column name="name">Puno</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">22</column>
+            <column name="name">San Martín</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">23</column>
+            <column name="name">Tacna</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">24</column>
+            <column name="name">Tumbes</column>
+        </table>
+        <table name="ubigeo_peru_departments">
+            <column name="id">25</column>
+            <column name="name">Ucayali</column>
+        </table>
+    </database>
+</pma_xml_export>

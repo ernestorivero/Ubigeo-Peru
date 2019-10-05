@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.4.15.9
+- https://www.phpmyadmin.net
+-
+- Servidor: localhost
+- Tiempo de generación: 05-10-2019 a las 21:02:35
+- Versión del servidor: 5.6.37
+- Versión de PHP: 7.1.8
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="ubigeo_peru_inei_2016" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="ubigeo_peru_provinces">
+                CREATE TABLE `ubigeo_peru_provinces` (
+                  `id` varchar(4) NOT NULL,
+                  `name` varchar(45) NOT NULL,
+                  `department_id` varchar(2) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de datos: 'ubigeo_peru_inei_2016'
+    -->
+    <database name="ubigeo_peru_inei_2016">
+        <!-- Tabla ubigeo_peru_provinces -->
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0101</column>
+            <column name="name">Chachapoyas</column>
+            <column name="department_id">01</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0102</column>
+            <column name="name">Bagua</column>
+            <column name="department_id">01</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0103</column>
+            <column name="name">Bongará</column>
+            <column name="department_id">01</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0104</column>
+            <column name="name">Condorcanqui</column>
+            <column name="department_id">01</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0105</column>
+            <column name="name">Luya</column>
+            <column name="department_id">01</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0106</column>
+            <column name="name">Rodríguez de Mendoza</column>
+            <column name="department_id">01</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0107</column>
+            <column name="name">Utcubamba</column>
+            <column name="department_id">01</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0201</column>
+            <column name="name">Huaraz</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0202</column>
+            <column name="name">Aija</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0203</column>
+            <column name="name">Antonio Raymondi</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0204</column>
+            <column name="name">Asunción</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0205</column>
+            <column name="name">Bolognesi</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0206</column>
+            <column name="name">Carhuaz</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0207</column>
+            <column name="name">Carlos Fermín Fitzcarrald</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0208</column>
+            <column name="name">Casma</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0209</column>
+            <column name="name">Corongo</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0210</column>
+            <column name="name">Huari</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0211</column>
+            <column name="name">Huarmey</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0212</column>
+            <column name="name">Huaylas</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0213</column>
+            <column name="name">Mariscal Luzuriaga</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0214</column>
+            <column name="name">Ocros</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0215</column>
+            <column name="name">Pallasca</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0216</column>
+            <column name="name">Pomabamba</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0217</column>
+            <column name="name">Recuay</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0218</column>
+            <column name="name">Santa</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0219</column>
+            <column name="name">Sihuas</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0220</column>
+            <column name="name">Yungay</column>
+            <column name="department_id">02</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0301</column>
+            <column name="name">Abancay</column>
+            <column name="department_id">03</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0302</column>
+            <column name="name">Andahuaylas</column>
+            <column name="department_id">03</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0303</column>
+            <column name="name">Antabamba</column>
+            <column name="department_id">03</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0304</column>
+            <column name="name">Aymaraes</column>
+            <column name="department_id">03</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0305</column>
+            <column name="name">Cotabambas</column>
+            <column name="department_id">03</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0306</column>
+            <column name="name">Chincheros</column>
+            <column name="department_id">03</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0307</column>
+            <column name="name">Grau</column>
+            <column name="department_id">03</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0401</column>
+            <column name="name">Arequipa</column>
+            <column name="department_id">04</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0402</column>
+            <column name="name">Camaná</column>
+            <column name="department_id">04</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0403</column>
+            <column name="name">Caravelí</column>
+            <column name="department_id">04</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0404</column>
+            <column name="name">Castilla</column>
+            <column name="department_id">04</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0405</column>
+            <column name="name">Caylloma</column>
+            <column name="department_id">04</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0406</column>
+            <column name="name">Condesuyos</column>
+            <column name="department_id">04</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0407</column>
+            <column name="name">Islay</column>
+            <column name="department_id">04</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0408</column>
+            <column name="name">La Uniòn</column>
+            <column name="department_id">04</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0501</column>
+            <column name="name">Huamanga</column>
+            <column name="department_id">05</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0502</column>
+            <column name="name">Cangallo</column>
+            <column name="department_id">05</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0503</column>
+            <column name="name">Huanca Sancos</column>
+            <column name="department_id">05</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0504</column>
+            <column name="name">Huanta</column>
+            <column name="department_id">05</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0505</column>
+            <column name="name">La Mar</column>
+            <column name="department_id">05</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0506</column>
+            <column name="name">Lucanas</column>
+            <column name="department_id">05</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0507</column>
+            <column name="name">Parinacochas</column>
+            <column name="department_id">05</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0508</column>
+            <column name="name">Pàucar del Sara Sara</column>
+            <column name="department_id">05</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0509</column>
+            <column name="name">Sucre</column>
+            <column name="department_id">05</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0510</column>
+            <column name="name">Víctor Fajardo</column>
+            <column name="department_id">05</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0511</column>
+            <column name="name">Vilcas Huamán</column>
+            <column name="department_id">05</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0601</column>
+            <column name="name">Cajamarca</column>
+            <column name="department_id">06</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0602</column>
+            <column name="name">Cajabamba</column>
+            <column name="department_id">06</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0603</column>
+            <column name="name">Celendín</column>
+            <column name="department_id">06</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0604</column>
+            <column name="name">Chota</column>
+            <column name="department_id">06</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0605</column>
+            <column name="name">Contumazá</column>
+            <column name="department_id">06</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0606</column>
+            <column name="name">Cutervo</column>
+            <column name="department_id">06</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0607</column>
+            <column name="name">Hualgayoc</column>
+            <column name="department_id">06</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0608</column>
+            <column name="name">Jaén</column>
+            <column name="department_id">06</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0609</column>
+            <column name="name">San Ignacio</column>
+            <column name="department_id">06</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0610</column>
+            <column name="name">San Marcos</column>
+            <column name="department_id">06</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0611</column>
+            <column name="name">San Miguel</column>
+            <column name="department_id">06</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0612</column>
+            <column name="name">San Pablo</column>
+            <column name="department_id">06</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0613</column>
+            <column name="name">Santa Cruz</column>
+            <column name="department_id">06</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0701</column>
+            <column name="name">Prov. Const. del Callao</column>
+            <column name="department_id">07</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0801</column>
+            <column name="name">Cusco</column>
+            <column name="department_id">08</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0802</column>
+            <column name="name">Acomayo</column>
+            <column name="department_id">08</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0803</column>
+            <column name="name">Anta</column>
+            <column name="department_id">08</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0804</column>
+            <column name="name">Calca</column>
+            <column name="department_id">08</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0805</column>
+            <column name="name">Canas</column>
+            <column name="department_id">08</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0806</column>
+            <column name="name">Canchis</column>
+            <column name="department_id">08</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0807</column>
+            <column name="name">Chumbivilcas</column>
+            <column name="department_id">08</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0808</column>
+            <column name="name">Espinar</column>
+            <column name="department_id">08</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0809</column>
+            <column name="name">La Convención</column>
+            <column name="department_id">08</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0810</column>
+            <column name="name">Paruro</column>
+            <column name="department_id">08</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0811</column>
+            <column name="name">Paucartambo</column>
+            <column name="department_id">08</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0812</column>
+            <column name="name">Quispicanchi</column>
+            <column name="department_id">08</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0813</column>
+            <column name="name">Urubamba</column>
+            <column name="department_id">08</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0901</column>
+            <column name="name">Huancavelica</column>
+            <column name="department_id">09</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0902</column>
+            <column name="name">Acobamba</column>
+            <column name="department_id">09</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0903</column>
+            <column name="name">Angaraes</column>
+            <column name="department_id">09</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0904</column>
+            <column name="name">Castrovirreyna</column>
+            <column name="department_id">09</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0905</column>
+            <column name="name">Churcampa</column>
+            <column name="department_id">09</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0906</column>
+            <column name="name">Huaytará</column>
+            <column name="department_id">09</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">0907</column>
+            <column name="name">Tayacaja</column>
+            <column name="department_id">09</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1001</column>
+            <column name="name">Huánuco</column>
+            <column name="department_id">10</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1002</column>
+            <column name="name">Ambo</column>
+            <column name="department_id">10</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1003</column>
+            <column name="name">Dos de Mayo</column>
+            <column name="department_id">10</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1004</column>
+            <column name="name">Huacaybamba</column>
+            <column name="department_id">10</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1005</column>
+            <column name="name">Huamalíes</column>
+            <column name="department_id">10</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1006</column>
+            <column name="name">Leoncio Prado</column>
+            <column name="department_id">10</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1007</column>
+            <column name="name">Marañón</column>
+            <column name="department_id">10</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1008</column>
+            <column name="name">Pachitea</column>
+            <column name="department_id">10</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1009</column>
+            <column name="name">Puerto Inca</column>
+            <column name="department_id">10</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1010</column>
+            <column name="name">Lauricocha </column>
+            <column name="department_id">10</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1011</column>
+            <column name="name">Yarowilca </column>
+            <column name="department_id">10</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1101</column>
+            <column name="name">Ica </column>
+            <column name="department_id">11</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1102</column>
+            <column name="name">Chincha </column>
+            <column name="department_id">11</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1103</column>
+            <column name="name">Nasca </column>
+            <column name="department_id">11</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1104</column>
+            <column name="name">Palpa </column>
+            <column name="department_id">11</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1105</column>
+            <column name="name">Pisco </column>
+            <column name="department_id">11</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1201</column>
+            <column name="name">Huancayo </column>
+            <column name="department_id">12</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1202</column>
+            <column name="name">Concepción </column>
+            <column name="department_id">12</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1203</column>
+            <column name="name">Chanchamayo </column>
+            <column name="department_id">12</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1204</column>
+            <column name="name">Jauja </column>
+            <column name="department_id">12</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1205</column>
+            <column name="name">Junín </column>
+            <column name="department_id">12</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1206</column>
+            <column name="name">Satipo </column>
+            <column name="department_id">12</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1207</column>
+            <column name="name">Tarma </column>
+            <column name="department_id">12</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1208</column>
+            <column name="name">Yauli </column>
+            <column name="department_id">12</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1209</column>
+            <column name="name">Chupaca </column>
+            <column name="department_id">12</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1301</column>
+            <column name="name">Trujillo </column>
+            <column name="department_id">13</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1302</column>
+            <column name="name">Ascope </column>
+            <column name="department_id">13</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1303</column>
+            <column name="name">Bolívar </column>
+            <column name="department_id">13</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1304</column>
+            <column name="name">Chepén </column>
+            <column name="department_id">13</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1305</column>
+            <column name="name">Julcán </column>
+            <column name="department_id">13</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1306</column>
+            <column name="name">Otuzco </column>
+            <column name="department_id">13</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1307</column>
+            <column name="name">Pacasmayo </column>
+            <column name="department_id">13</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1308</column>
+            <column name="name">Pataz </column>
+            <column name="department_id">13</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1309</column>
+            <column name="name">Sánchez Carrión </column>
+            <column name="department_id">13</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1310</column>
+            <column name="name">Santiago de Chuco </column>
+            <column name="department_id">13</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1311</column>
+            <column name="name">Gran Chimú </column>
+            <column name="department_id">13</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1312</column>
+            <column name="name">Virú </column>
+            <column name="department_id">13</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1401</column>
+            <column name="name">Chiclayo </column>
+            <column name="department_id">14</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1402</column>
+            <column name="name">Ferreñafe </column>
+            <column name="department_id">14</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1403</column>
+            <column name="name">Lambayeque </column>
+            <column name="department_id">14</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1501</column>
+            <column name="name">Lima </column>
+            <column name="department_id">15</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1502</column>
+            <column name="name">Barranca </column>
+            <column name="department_id">15</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1503</column>
+            <column name="name">Cajatambo </column>
+            <column name="department_id">15</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1504</column>
+            <column name="name">Canta </column>
+            <column name="department_id">15</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1505</column>
+            <column name="name">Cañete </column>
+            <column name="department_id">15</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1506</column>
+            <column name="name">Huaral </column>
+            <column name="department_id">15</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1507</column>
+            <column name="name">Huarochirí </column>
+            <column name="department_id">15</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1508</column>
+            <column name="name">Huaura </column>
+            <column name="department_id">15</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1509</column>
+            <column name="name">Oyón </column>
+            <column name="department_id">15</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1510</column>
+            <column name="name">Yauyos </column>
+            <column name="department_id">15</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1601</column>
+            <column name="name">Maynas </column>
+            <column name="department_id">16</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1602</column>
+            <column name="name">Alto Amazonas </column>
+            <column name="department_id">16</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1603</column>
+            <column name="name">Loreto </column>
+            <column name="department_id">16</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1604</column>
+            <column name="name">Mariscal Ramón Castilla </column>
+            <column name="department_id">16</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1605</column>
+            <column name="name">Requena </column>
+            <column name="department_id">16</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1606</column>
+            <column name="name">Ucayali </column>
+            <column name="department_id">16</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1607</column>
+            <column name="name">Datem del Marañón </column>
+            <column name="department_id">16</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1608</column>
+            <column name="name">Putumayo</column>
+            <column name="department_id">16</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1701</column>
+            <column name="name">Tambopata </column>
+            <column name="department_id">17</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1702</column>
+            <column name="name">Manu </column>
+            <column name="department_id">17</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1703</column>
+            <column name="name">Tahuamanu </column>
+            <column name="department_id">17</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1801</column>
+            <column name="name">Mariscal Nieto </column>
+            <column name="department_id">18</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1802</column>
+            <column name="name">General Sánchez Cerro </column>
+            <column name="department_id">18</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1803</column>
+            <column name="name">Ilo </column>
+            <column name="department_id">18</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1901</column>
+            <column name="name">Pasco </column>
+            <column name="department_id">19</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1902</column>
+            <column name="name">Daniel Alcides Carrión </column>
+            <column name="department_id">19</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">1903</column>
+            <column name="name">Oxapampa </column>
+            <column name="department_id">19</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2001</column>
+            <column name="name">Piura </column>
+            <column name="department_id">20</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2002</column>
+            <column name="name">Ayabaca </column>
+            <column name="department_id">20</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2003</column>
+            <column name="name">Huancabamba </column>
+            <column name="department_id">20</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2004</column>
+            <column name="name">Morropón </column>
+            <column name="department_id">20</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2005</column>
+            <column name="name">Paita </column>
+            <column name="department_id">20</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2006</column>
+            <column name="name">Sullana </column>
+            <column name="department_id">20</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2007</column>
+            <column name="name">Talara </column>
+            <column name="department_id">20</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2008</column>
+            <column name="name">Sechura </column>
+            <column name="department_id">20</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2101</column>
+            <column name="name">Puno </column>
+            <column name="department_id">21</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2102</column>
+            <column name="name">Azángaro </column>
+            <column name="department_id">21</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2103</column>
+            <column name="name">Carabaya </column>
+            <column name="department_id">21</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2104</column>
+            <column name="name">Chucuito </column>
+            <column name="department_id">21</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2105</column>
+            <column name="name">El Collao </column>
+            <column name="department_id">21</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2106</column>
+            <column name="name">Huancané </column>
+            <column name="department_id">21</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2107</column>
+            <column name="name">Lampa </column>
+            <column name="department_id">21</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2108</column>
+            <column name="name">Melgar </column>
+            <column name="department_id">21</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2109</column>
+            <column name="name">Moho </column>
+            <column name="department_id">21</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2110</column>
+            <column name="name">San Antonio de Putina </column>
+            <column name="department_id">21</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2111</column>
+            <column name="name">San Román </column>
+            <column name="department_id">21</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2112</column>
+            <column name="name">Sandia </column>
+            <column name="department_id">21</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2113</column>
+            <column name="name">Yunguyo </column>
+            <column name="department_id">21</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2201</column>
+            <column name="name">Moyobamba </column>
+            <column name="department_id">22</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2202</column>
+            <column name="name">Bellavista </column>
+            <column name="department_id">22</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2203</column>
+            <column name="name">El Dorado </column>
+            <column name="department_id">22</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2204</column>
+            <column name="name">Huallaga </column>
+            <column name="department_id">22</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2205</column>
+            <column name="name">Lamas </column>
+            <column name="department_id">22</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2206</column>
+            <column name="name">Mariscal Cáceres </column>
+            <column name="department_id">22</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2207</column>
+            <column name="name">Picota </column>
+            <column name="department_id">22</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2208</column>
+            <column name="name">Rioja </column>
+            <column name="department_id">22</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2209</column>
+            <column name="name">San Martín </column>
+            <column name="department_id">22</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2210</column>
+            <column name="name">Tocache </column>
+            <column name="department_id">22</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2301</column>
+            <column name="name">Tacna </column>
+            <column name="department_id">23</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2302</column>
+            <column name="name">Candarave </column>
+            <column name="department_id">23</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2303</column>
+            <column name="name">Jorge Basadre </column>
+            <column name="department_id">23</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2304</column>
+            <column name="name">Tarata </column>
+            <column name="department_id">23</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2401</column>
+            <column name="name">Tumbes </column>
+            <column name="department_id">24</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2402</column>
+            <column name="name">Contralmirante Villar </column>
+            <column name="department_id">24</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2403</column>
+            <column name="name">Zarumilla </column>
+            <column name="department_id">24</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2501</column>
+            <column name="name">Coronel Portillo </column>
+            <column name="department_id">25</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2502</column>
+            <column name="name">Atalaya </column>
+            <column name="department_id">25</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2503</column>
+            <column name="name">Padre Abad </column>
+            <column name="department_id">25</column>
+        </table>
+        <table name="ubigeo_peru_provinces">
+            <column name="id">2504</column>
+            <column name="name">Purús</column>
+            <column name="department_id">25</column>
+        </table>
+    </database>
+</pma_xml_export>
